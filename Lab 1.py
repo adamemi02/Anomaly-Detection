@@ -110,12 +110,5 @@ def ex4(n_samples=1000, n_features=5, contamination_rate=0.1):
 
 
 
-n_samples = 1000
-n_features = 3
-contamination_rate = 0.1
-
-balanced_acc=ex4(n_samples,n_features,contamination_rate)
-
-print(f"Balanced Accuracy for {n_features}-dimensional data: {balanced_acc}")
 
 
